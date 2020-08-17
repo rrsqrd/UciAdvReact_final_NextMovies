@@ -1,0 +1,6 @@
+
+  "scripts": { 
+      "dev": "next -p 3083" 
+  },
+  
+npm run dev

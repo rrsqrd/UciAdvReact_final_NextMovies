@@ -3,14 +3,11 @@ import Link from 'next/link'
 const Nav = () => {
   return (
     <nav>
-      <Link href="/">
-        <a>Index</a>
+      <Link href="/ssr">
+        <a>SSR</a>
       </Link>
       <Link href="/ssg">
         <a>SSG</a>
-      </Link>
-      <Link href="/ssr">
-        <a>SSR</a>
       </Link>
       <style jsx>
         {`
